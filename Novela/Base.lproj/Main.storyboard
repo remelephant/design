@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad9_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Felt Tip Roman.ttf">
+            <string>FeltTipRoman</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Novela" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FirstScreen logo" translatesAutoresizingMaskIntoConstraints="NO" id="fEs-rW-eck">
+                                <rect key="frame" x="363" y="247" width="298" height="274"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="274.14999999999998" id="M6n-MQ-GEU"/>
+                                    <constraint firstAttribute="width" constant="298.88999999999999" id="owP-NG-tnY"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="Ujc-3W-gli">
+                                <rect key="frame" x="697" y="37.5" width="299.5" height="165.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="165.69" id="25x-uv-eO1"/>
+                                    <constraint firstAttribute="width" constant="299.13" id="PPK-b7-o8q"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oBb-LC-4A6">
+                                <rect key="frame" x="918" y="718" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="dHV-BC-Nrz" kind="show" id="lDq-Wq-LkS"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ujc-3W-gli" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="17.300000000000001" id="FCa-kA-3IH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oBb-LC-4A6" secondAttribute="trailing" constant="60" id="Y7v-yO-pBW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ujc-3W-gli" secondAttribute="trailing" constant="27.699999999999999" id="g5U-TA-zN4"/>
+                            <constraint firstItem="fEs-rW-eck" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mI6-9I-wBg"/>
+                            <constraint firstItem="fEs-rW-eck" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="n4f-NW-QrM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="oBb-LC-4A6" secondAttribute="bottom" constant="20" id="rrZ-Nu-6y7"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="91" y="191"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="y5A-IH-Uig">
+            <objects>
+                <viewController id="dHV-BC-Nrz" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lmq-Xg-cNn">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="FbP-S4-y8f" customClass="RotatableView" customModule="Novela" customModuleProvider="target">
+                                <rect key="frame" x="35" y="46" width="664" height="334"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AKTION" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iZe-sI-MmN">
+                                        <rect key="frame" x="24.5" y="17.5" width="101" height="27"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="101" id="J7w-oX-hDB"/>
+                                            <constraint firstAttribute="height" constant="27" id="aSO-i0-z32"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="FeltTipRoman" family="Felt Tip" pointSize="27"/>
+                                        <color key="textColor" red="0.0" green="0.70196078431372544" blue="0.8901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FSF-c9-hgQ">
+                                        <rect key="frame" x="27.5" y="33.5" width="413" height="90"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="90" id="3GC-My-MWr"/>
+                                            <constraint firstAttribute="width" constant="413" id="7Q5-gO-f4e"/>
+                                        </constraints>
+                                        <attributedString key="attributedText">
+                                            <fragment>
+                                                <string key="content">Erzähle uns Deine'' 
+</string>
+                                                <attributes>
+                                                    <font key="NSFont" size="45" name="FeltTipRoman"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="Silvester-Geschichte">
+                                                <attributes>
+                                                    <font key="NSFont" size="45" name="FeltTipRoman"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="0.59999999999999998" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MZ0-Fn-tlE">
+                                        <rect key="frame" x="315.5" y="123.5" width="320" height="140"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="140" id="CtV-Nx-RvC"/>
+                                            <constraint firstAttribute="width" constant="320" id="oKD-GY-fes"/>
+                                        </constraints>
+                                        <attributedString key="attributedText">
+                                            <fragment>
+                                                <string key="content">Erzähle uns eine spannende oder lustige 
+Geschichte aus der Silvesternacht. Wir 
+haben Dir dafür ein Paket mit Partymusik 
+und Geräuschen eingepackt. 
+
+Wir sind gespannt, was Dir dazu einfällt.  </string>
+                                                <attributes>
+                                                    <font key="NSFont" size="18" name="FeltTipRoman"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AIa-ti-jVm" customClass="RoundedButton" customModule="Novela" customModuleProvider="target">
+                                        <rect key="frame" x="323.5" y="273.5" width="125.5" height="23.5"/>
+                                        <color key="backgroundColor" red="1" green="0.41960784313725491" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="125.40000000000001" id="lzj-mi-O7u"/>
+                                            <constraint firstAttribute="height" constant="23.649999999999999" id="raZ-kZ-W9r"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="FeltTipRoman" family="Felt Tip" pointSize="16"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.corner" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hjo-lj-fn5">
+                                        <rect key="frame" x="501" y="273.5" width="125.5" height="23.5"/>
+                                        <color key="backgroundColor" red="0.85490196078431369" green="0.094117647058823528" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="23.649999999999999" id="Dwv-Kr-n65"/>
+                                            <constraint firstAttribute="width" constant="125.40000000000001" id="VbQ-tU-qWm"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="FeltTipRoman" family="Felt Tip" pointSize="16"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="hjo-lj-fn5" firstAttribute="top" secondItem="MZ0-Fn-tlE" secondAttribute="bottom" constant="10" id="2Bf-DM-DWK"/>
+                                    <constraint firstAttribute="trailing" secondItem="MZ0-Fn-tlE" secondAttribute="trailing" constant="28.300000000000001" id="CMu-NC-XrI"/>
+                                    <constraint firstItem="AIa-ti-jVm" firstAttribute="leading" secondItem="MZ0-Fn-tlE" secondAttribute="leading" constant="8" id="D96-x4-fOI"/>
+                                    <constraint firstAttribute="bottom" secondItem="MZ0-Fn-tlE" secondAttribute="bottom" constant="70.700000000000003" id="EjA-z6-vV5"/>
+                                    <constraint firstItem="iZe-sI-MmN" firstAttribute="top" secondItem="FbP-S4-y8f" secondAttribute="top" constant="17.300000000000001" id="GeQ-F9-F1C"/>
+                                    <constraint firstItem="AIa-ti-jVm" firstAttribute="top" secondItem="MZ0-Fn-tlE" secondAttribute="bottom" constant="10" id="VEq-lc-yDK"/>
+                                    <constraint firstItem="iZe-sI-MmN" firstAttribute="leading" secondItem="FbP-S4-y8f" secondAttribute="leading" constant="24.399999999999999" id="WGG-Qo-Rj6"/>
+                                    <constraint firstAttribute="width" constant="664" id="ZSb-lR-cdv"/>
+                                    <constraint firstAttribute="height" constant="334" id="bzt-rs-3Yz"/>
+                                    <constraint firstItem="FSF-c9-hgQ" firstAttribute="leading" secondItem="FbP-S4-y8f" secondAttribute="leading" constant="27.300000000000001" id="f13-CP-Mtt"/>
+                                    <constraint firstItem="hjo-lj-fn5" firstAttribute="trailing" secondItem="MZ0-Fn-tlE" secondAttribute="trailing" constant="-8.8000000000000007" id="q4r-mI-fyZ"/>
+                                    <constraint firstItem="FSF-c9-hgQ" firstAttribute="top" secondItem="FbP-S4-y8f" secondAttribute="top" constant="33.399999999999999" id="vML-tu-iMc"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="viewRotation">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.70196078431372544" blue="0.8901960784313725" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="FbP-S4-y8f" firstAttribute="top" secondItem="zqG-AD-Kec" secondAttribute="top" constant="26" id="5hl-if-pZK"/>
+                            <constraint firstItem="FbP-S4-y8f" firstAttribute="leading" secondItem="zqG-AD-Kec" secondAttribute="leading" constant="35" id="zRh-y8-xbU"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="zqG-AD-Kec"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DDZ-aY-7Ii" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="895.89843749999989" y="235.9375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="FirstScreen logo" width="308" height="252"/>
+        <image name="Logo" width="305" height="171"/>
+    </resources>
+</document>
