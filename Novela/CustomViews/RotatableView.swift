@@ -17,4 +17,10 @@ import UIKit
             self.transform = CGAffineTransform(rotationAngle: radians)
         }
     }
+    
+    @IBInspectable var radius: CGFloat = 0.0 {
+        didSet{
+            self.layer.cornerRadius = radius
+        }
+    }
 }

@@ -31,6 +31,7 @@ import UIKit
     // MARK: - Button image view
     var imageView = UIImageView()
     @IBInspectable var imageSize: CGFloat = 100
+    @IBInspectable var imagePosition: CGFloat = -30
     @IBInspectable var imageRotation: CGFloat {
         get {
             return 0
@@ -44,7 +45,7 @@ import UIKit
     var title = UILabel()
     @IBInspectable var titleHeight: CGFloat = 30
     @IBInspectable var titleWidth: CGFloat = 100
-    @IBInspectable var titlePosition: CGFloat = 0
+    @IBInspectable var titlePosition: CGFloat = 30
     @IBInspectable var titleRotation: CGFloat {
         get {
             return 0
@@ -63,10 +64,6 @@ import UIKit
     }
     
     func setup() {
-        layer.shadowColor = UIColor.black.cgColor;
-        layer.shadowOffset = CGSize.zero
-        layer.shadowRadius = 5.0;
-        layer.shadowOpacity = 0.5;
         layer.masksToBounds = true
         layer.masksToBounds = true
         super.backgroundColor = UIColor.clear
@@ -104,7 +101,7 @@ import UIKit
     private func configureButtonImageView() {
         
         imageView.frame.size = CGSize(width: imageSize, height: imageSize)
-        imageView.center = CGPoint(x: bounds.midX, y: bounds.midY)
+        imageView.center = CGPoint(x: bounds.midX, y: bounds.midY - imagePosition)
         
         if let image = buttonImage {
             imageView.image = image
@@ -114,7 +111,7 @@ import UIKit
     
     private func configureButtonTitleLabel() {
         title.text = titleText
-        title.font = UIFont.systemFont(ofSize: titleHeight)
+        title.font = UIFont(name: "FeltTipRoman", size: titleHeight)
         title.frame.size = CGSize(width: titleWidth, height: titleWidth)
         title.center = CGPoint(x: bounds.midX, y: bounds.midY - titlePosition)
     }

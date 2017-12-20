@@ -42,7 +42,7 @@
 	</array>
 	<key>UIAppFonts</key>
 	<array>
-		<string>Felt Tip Roman</string>
+		<string>Felt Tip Roman.ttf</string>
 	</array>
 </dict>
 </plist>

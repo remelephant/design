@@ -69,11 +69,192 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BlueBackgroung" translatesAutoresizingMaskIntoConstraints="NO" id="OM1-Dy-viL">
+                                <rect key="frame" x="18" y="18" width="989" height="733"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rounds" translatesAutoresizingMaskIntoConstraints="NO" id="etw-e4-E85">
+                                <rect key="frame" x="403" y="107" width="502" height="502"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="502" id="B4b-Sr-2D7"/>
+                                    <constraint firstAttribute="height" constant="502" id="Zzh-lf-4xE"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zCP-Fv-tRO" customClass="CustomButton" customModule="Novela" customModuleProvider="target">
+                                <rect key="frame" x="15.412613228321788" y="393.64917683012857" width="260.17477354335642" height="218.70164633974287"/>
+                                <color key="backgroundColor" red="0.85490196078431369" green="0.094117647058823528" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="210" id="paB-1I-rJo"/>
+                                    <constraint firstAttribute="width" constant="253" id="vzi-WU-IgE"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="18"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="buttonImage" value="SPRECHERKABINE"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="imageSize">
+                                        <real key="value" value="90"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="titleText" value="SPRECHERKABINE"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="titleWidth">
+                                        <real key="value" value="200"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="titleHeight">
+                                        <real key="value" value="27"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="imagePosition">
+                                        <real key="value" value="-20"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="titlePosition">
+                                        <real key="value" value="60"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="titleRotation">
+                                        <real key="value" value="-6"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="viewRotation">
+                                        <real key="value" value="-2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cjs-72-iLS" customClass="CustomButton" customModule="Novela" customModuleProvider="target">
+                                <rect key="frame" x="268.73811574480925" y="393.65222269503306" width="260.52376851038144" height="228.69555460993388"/>
+                                <color key="backgroundColor" red="0.0" green="0.70196078431372544" blue="0.8901960784313725" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="220" id="DXM-Wj-uXo"/>
+                                    <constraint firstAttribute="width" constant="253" id="fAn-lF-uXB"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="18"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="buttonImage" value="SOUND-BOX"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="imageSize">
+                                        <real key="value" value="120"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="titleText" value="SOUND-BOX"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="titleWidth">
+                                        <real key="value" value="200"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="titleHeight">
+                                        <real key="value" value="27"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="imagePosition">
+                                        <real key="value" value="-20"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="titlePosition">
+                                        <real key="value" value="65"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="titleRotation">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="viewRotation">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xuZ-lF-ao3" customClass="CustomButton" customModule="Novela" customModuleProvider="target">
+                                <rect key="frame" x="523.73811574480931" y="403.65222269503306" width="260.5237685103815" height="228.69555460993388"/>
+                                <color key="backgroundColor" red="1" green="0.41960784313725491" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="220" id="dfQ-0T-wV0"/>
+                                    <constraint firstAttribute="width" constant="253" id="ul0-TE-dek"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="18"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="buttonImage" value="3-SPUR-MASCHINE"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="imageSize">
+                                        <real key="value" value="140"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="titleText" value="3-SPUR-MASCHINE"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="titleWidth">
+                                        <real key="value" value="200"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="titleHeight">
+                                        <real key="value" value="27"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="imagePosition">
+                                        <real key="value" value="-20"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="titlePosition">
+                                        <real key="value" value="65"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="titleRotation">
+                                        <real key="value" value="-6"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="viewRotation">
+                                        <real key="value" value="-2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9NW-so-hS9" customClass="CustomButton" customModule="Novela" customModuleProvider="target">
+                                <rect key="frame" x="749.73811574480931" y="398.15222269503306" width="260.5237685103815" height="228.69555460993388"/>
+                                <color key="backgroundColor" red="1" green="0.78431372549019607" blue="0.2627450980392157" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="220" id="Sj6-BB-gO4"/>
+                                    <constraint firstAttribute="width" constant="253" id="otf-pO-Wr6"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="18"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="buttonImage" value="MUSIK-STUDIO"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="imageSize">
+                                        <real key="value" value="190"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="titleText" value="MUSIK-STUDIO"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="titleWidth">
+                                        <real key="value" value="200"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="titleHeight">
+                                        <real key="value" value="27"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="imagePosition">
+                                        <real key="value" value="-20"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="titlePosition">
+                                        <real key="value" value="50"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="titleRotation">
+                                        <real key="value" value="-5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="viewRotation">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="imageRotation">
+                                        <real key="value" value="-5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                             <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="FbP-S4-y8f" customClass="RotatableView" customModule="Novela" customModuleProvider="target">
-                                <rect key="frame" x="35" y="46" width="664" height="334"/>
+                                <rect key="frame" x="29.374029480342529" y="34.515098982580682" width="675.25194103931494" height="356.96980203483861"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AKTION" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iZe-sI-MmN">
-                                        <rect key="frame" x="24.5" y="17.5" width="101" height="27"/>
+                                        <rect key="frame" x="25" y="18" width="101" height="27"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="101" id="J7w-oX-hDB"/>
                                             <constraint firstAttribute="height" constant="27" id="aSO-i0-z32"/>
@@ -83,7 +264,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FSF-c9-hgQ">
-                                        <rect key="frame" x="27.5" y="33.5" width="413" height="90"/>
+                                        <rect key="frame" x="28" y="34" width="413" height="90"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="90" id="3GC-My-MWr"/>
                                             <constraint firstAttribute="width" constant="413" id="7Q5-gO-f4e"/>
@@ -129,32 +310,54 @@ Wir sind gespannt, was Dir dazu einfällt.  </string>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AIa-ti-jVm" customClass="RoundedButton" customModule="Novela" customModuleProvider="target">
-                                        <rect key="frame" x="323.5" y="273.5" width="125.5" height="23.5"/>
+                                        <rect key="frame" x="323.5" y="273.5" width="126" height="24"/>
                                         <color key="backgroundColor" red="1" green="0.41960784313725491" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="125.40000000000001" id="lzj-mi-O7u"/>
                                             <constraint firstAttribute="height" constant="23.649999999999999" id="raZ-kZ-W9r"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="FeltTipRoman" family="Felt Tip" pointSize="16"/>
-                                        <state key="normal" title="Button">
+                                        <state key="normal" title="DOWNLOAD">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="layer.corner" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="radius">
+                                                <real key="value" value="6"/>
+                                            </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hjo-lj-fn5">
-                                        <rect key="frame" x="501" y="273.5" width="125.5" height="23.5"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hjo-lj-fn5" customClass="RoundedButton" customModule="Novela" customModuleProvider="target">
+                                        <rect key="frame" x="500.5" y="273.5" width="126" height="24"/>
                                         <color key="backgroundColor" red="0.85490196078431369" green="0.094117647058823528" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="23.649999999999999" id="Dwv-Kr-n65"/>
                                             <constraint firstAttribute="width" constant="125.40000000000001" id="VbQ-tU-qWm"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="FeltTipRoman" family="Felt Tip" pointSize="16"/>
-                                        <state key="normal" title="Button">
+                                        <state key="normal" title="MITMACHEN">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="radius">
+                                                <real key="value" value="6"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
                                     </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BigTextfieldCollection" translatesAutoresizingMaskIntoConstraints="NO" id="uBa-JH-JWy">
+                                        <rect key="frame" x="34" y="113.5" width="250" height="207"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="207" id="GX6-RQ-Htq"/>
+                                            <constraint firstAttribute="width" constant="250" id="vvy-fB-dfy"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BigTextfieldSmallImage" translatesAutoresizingMaskIntoConstraints="NO" id="Yk3-6o-iPu">
+                                        <rect key="frame" x="494" y="29" width="87" height="89"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="89.310000000000002" id="51Y-JV-sJS"/>
+                                            <constraint firstAttribute="width" constant="87.290000000000006" id="fJh-JP-M8b"/>
+                                        </constraints>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -163,36 +366,134 @@ Wir sind gespannt, was Dir dazu einfällt.  </string>
                                     <constraint firstItem="AIa-ti-jVm" firstAttribute="leading" secondItem="MZ0-Fn-tlE" secondAttribute="leading" constant="8" id="D96-x4-fOI"/>
                                     <constraint firstAttribute="bottom" secondItem="MZ0-Fn-tlE" secondAttribute="bottom" constant="70.700000000000003" id="EjA-z6-vV5"/>
                                     <constraint firstItem="iZe-sI-MmN" firstAttribute="top" secondItem="FbP-S4-y8f" secondAttribute="top" constant="17.300000000000001" id="GeQ-F9-F1C"/>
+                                    <constraint firstAttribute="trailing" secondItem="Yk3-6o-iPu" secondAttribute="trailing" constant="82.799999999999997" id="Tzs-a5-Rhr"/>
+                                    <constraint firstAttribute="bottom" secondItem="uBa-JH-JWy" secondAttribute="bottom" constant="13.300000000000001" id="UNp-Uj-Qs8"/>
                                     <constraint firstItem="AIa-ti-jVm" firstAttribute="top" secondItem="MZ0-Fn-tlE" secondAttribute="bottom" constant="10" id="VEq-lc-yDK"/>
                                     <constraint firstItem="iZe-sI-MmN" firstAttribute="leading" secondItem="FbP-S4-y8f" secondAttribute="leading" constant="24.399999999999999" id="WGG-Qo-Rj6"/>
+                                    <constraint firstItem="uBa-JH-JWy" firstAttribute="leading" secondItem="FbP-S4-y8f" secondAttribute="leading" constant="34" id="Wg8-5x-ZE4"/>
                                     <constraint firstAttribute="width" constant="664" id="ZSb-lR-cdv"/>
                                     <constraint firstAttribute="height" constant="334" id="bzt-rs-3Yz"/>
                                     <constraint firstItem="FSF-c9-hgQ" firstAttribute="leading" secondItem="FbP-S4-y8f" secondAttribute="leading" constant="27.300000000000001" id="f13-CP-Mtt"/>
                                     <constraint firstItem="hjo-lj-fn5" firstAttribute="trailing" secondItem="MZ0-Fn-tlE" secondAttribute="trailing" constant="-8.8000000000000007" id="q4r-mI-fyZ"/>
+                                    <constraint firstItem="Yk3-6o-iPu" firstAttribute="top" secondItem="FbP-S4-y8f" secondAttribute="top" constant="28.800000000000001" id="uXW-sJ-MGL"/>
                                     <constraint firstItem="FSF-c9-hgQ" firstAttribute="top" secondItem="FbP-S4-y8f" secondAttribute="top" constant="33.399999999999999" id="vML-tu-iMc"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="viewRotation">
-                                        <real key="value" value="0.0"/>
+                                        <real key="value" value="-2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="radius">
+                                        <real key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RWh-VS-1pZ" customClass="RotatableView" customModule="Novela" customModuleProvider="target">
+                                <rect key="frame" x="793.74021020132056" y="45.50230791748352" width="190.51957959735887" height="81.495384165032974"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NovelaSmallLogo" translatesAutoresizingMaskIntoConstraints="NO" id="gBn-av-txb">
+                                        <rect key="frame" x="0.0" y="0.0" width="185" height="62.5"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="gBn-av-txb" firstAttribute="leading" secondItem="RWh-VS-1pZ" secondAttribute="leading" id="DDa-xd-hsL"/>
+                                    <constraint firstAttribute="height" constant="62.640000000000001" id="Jdt-Br-YmJ"/>
+                                    <constraint firstItem="gBn-av-txb" firstAttribute="top" secondItem="RWh-VS-1pZ" secondAttribute="top" id="PO8-q9-JGp"/>
+                                    <constraint firstAttribute="trailing" secondItem="gBn-av-txb" secondAttribute="trailing" id="Sg6-tq-ptL"/>
+                                    <constraint firstAttribute="width" constant="185.19999999999999" id="aE6-td-VUh"/>
+                                    <constraint firstAttribute="bottom" secondItem="gBn-av-txb" secondAttribute="bottom" id="zCj-h9-zVC"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="viewRotation">
+                                        <real key="value" value="-6"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Ce-jo-d6X" customClass="CustomButton" customModule="Novela" customModuleProvider="target">
+                                <rect key="frame" x="14.378847373881596" y="565.38286179928309" width="264.24230525223686" height="187.23427640143382"/>
+                                <color key="backgroundColor" red="0.0" green="0.18431372549019609" blue="0.19607843137254902" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="170" id="aPM-Z3-6Le"/>
+                                    <constraint firstAttribute="width" constant="253" id="csr-ax-cm6"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="18"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="buttonImage" value="HILFE"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="imageSize">
+                                        <real key="value" value="70"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="titleText" value="HILFE"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="titleWidth">
+                                        <real key="value" value="200"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="titleHeight">
+                                        <real key="value" value="27"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="imagePosition">
+                                        <real key="value" value="-10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="titlePosition">
+                                        <real key="value" value="42"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="titleRotation">
+                                        <real key="value" value="6"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="viewRotation">
+                                        <real key="value" value="4"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" red="0.0" green="0.70196078431372544" blue="0.8901960784313725" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="zqG-AD-Kec" firstAttribute="bottom" secondItem="zCP-Fv-tRO" secondAttribute="bottom" constant="160" id="29W-qv-tqW"/>
+                            <constraint firstItem="zqG-AD-Kec" firstAttribute="bottom" secondItem="xuZ-lF-ao3" secondAttribute="bottom" constant="139.83000183105469" id="2cW-yx-flw"/>
                             <constraint firstItem="FbP-S4-y8f" firstAttribute="top" secondItem="zqG-AD-Kec" secondAttribute="top" constant="26" id="5hl-if-pZK"/>
+                            <constraint firstItem="cjs-72-iLS" firstAttribute="leading" secondItem="zqG-AD-Kec" secondAttribute="leading" constant="272.7344970703125" id="BMP-c4-io0"/>
+                            <constraint firstItem="zqG-AD-Kec" firstAttribute="trailing" secondItem="RWh-VS-1pZ" secondAttribute="trailing" constant="42.399999999999999" id="ESR-fk-5xj"/>
+                            <constraint firstItem="zqG-AD-Kec" firstAttribute="bottom" secondItem="9NW-so-hS9" secondAttribute="bottom" constant="145.30000000000001" id="JQd-QN-3t3"/>
+                            <constraint firstItem="RWh-VS-1pZ" firstAttribute="top" secondItem="lmq-Xg-cNn" secondAttribute="top" constant="55" id="LnX-RB-D1s"/>
+                            <constraint firstItem="zqG-AD-Kec" firstAttribute="bottom" secondItem="cjs-72-iLS" secondAttribute="bottom" constant="150" id="OCo-MT-Wd4"/>
+                            <constraint firstItem="zCP-Fv-tRO" firstAttribute="leading" secondItem="zqG-AD-Kec" secondAttribute="leading" constant="19.199999999999999" id="Pdj-ds-IKD"/>
+                            <constraint firstItem="2Ce-jo-d6X" firstAttribute="leading" secondItem="zqG-AD-Kec" secondAttribute="leading" constant="20" id="Sig-J8-cFa"/>
+                            <constraint firstItem="zqG-AD-Kec" firstAttribute="trailing" secondItem="etw-e4-E85" secondAttribute="trailing" constant="119" id="Y6l-3l-iNX"/>
+                            <constraint firstItem="zqG-AD-Kec" firstAttribute="bottom" secondItem="2Ce-jo-d6X" secondAttribute="bottom" constant="24" id="fAM-O5-BnM"/>
+                            <constraint firstItem="OM1-Dy-viL" firstAttribute="leading" secondItem="zqG-AD-Kec" secondAttribute="leading" constant="18" id="gUW-t3-vbR"/>
+                            <constraint firstItem="OM1-Dy-viL" firstAttribute="trailing" secondItem="zqG-AD-Kec" secondAttribute="trailing" constant="-17" id="knx-2A-mSz"/>
+                            <constraint firstItem="OM1-Dy-viL" firstAttribute="bottom" secondItem="zqG-AD-Kec" secondAttribute="bottom" constant="-17" id="lca-7b-nEd"/>
+                            <constraint firstItem="zqG-AD-Kec" firstAttribute="trailing" secondItem="xuZ-lF-ao3" secondAttribute="trailing" constant="243.47622680664062" id="raV-JA-Y0n"/>
+                            <constraint firstItem="zqG-AD-Kec" firstAttribute="trailing" secondItem="9NW-so-hS9" secondAttribute="trailing" constant="17.48" id="w0S-fZ-Cd4"/>
+                            <constraint firstItem="etw-e4-E85" firstAttribute="top" secondItem="lmq-Xg-cNn" secondAttribute="top" constant="107" id="zGw-mJ-tyq"/>
                             <constraint firstItem="FbP-S4-y8f" firstAttribute="leading" secondItem="zqG-AD-Kec" secondAttribute="leading" constant="35" id="zRh-y8-xbU"/>
+                            <constraint firstItem="OM1-Dy-viL" firstAttribute="top" secondItem="lmq-Xg-cNn" secondAttribute="top" constant="18" id="zwk-Hh-cIJ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="zqG-AD-Kec"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DDZ-aY-7Ii" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="895.89843749999989" y="235.9375"/>
+            <point key="canvasLocation" x="875.9765625" y="190.625"/>
         </scene>
     </scenes>
     <resources>
+        <image name="3-SPUR-MASCHINE" width="151" height="110"/>
+        <image name="BigTextfieldCollection" width="258" height="208"/>
+        <image name="BigTextfieldSmallImage" width="87" height="89"/>
+        <image name="BlueBackgroung" width="989" height="733"/>
         <image name="FirstScreen logo" width="308" height="252"/>
+        <image name="HILFE" width="63" height="83"/>
         <image name="Logo" width="305" height="171"/>
+        <image name="MUSIK-STUDIO" width="161" height="83"/>
+        <image name="NovelaSmallLogo" width="203" height="81"/>
+        <image name="Rounds" width="520" height="520"/>
+        <image name="SOUND-BOX" width="117" height="121"/>
+        <image name="SPRECHERKABINE" width="72" height="90"/>
     </resources>
 </document>

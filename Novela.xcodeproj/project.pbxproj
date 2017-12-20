@@ -10,6 +10,7 @@
 		83A8480B1FE874D40093B623 /* RotatableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A8480A1FE874D40093B623 /* RotatableView.swift */; };
 		83A8480D1FE87D500093B623 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A8480C1FE87D500093B623 /* CustomButton.swift */; };
 		83ACDBF01FE9C98F00A1DC94 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83ACDBEF1FE9C98F00A1DC94 /* RoundedButton.swift */; };
+		83ACDBF11FE9DB2700A1DC94 /* Felt Tip Roman.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83ACDBEE1FE9C18200A1DC94 /* Felt Tip Roman.ttf */; };
 		83ADD5121FE866D5009B90F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83ADD5111FE866D5009B90F5 /* AppDelegate.swift */; };
 		83ADD5141FE866D5009B90F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83ADD5131FE866D5009B90F5 /* ViewController.swift */; };
 		83ADD5171FE866D6009B90F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83ADD5151FE866D6009B90F5 /* Main.storyboard */; };
@@ -150,6 +151,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83ACDBF11FE9DB2700A1DC94 /* Felt Tip Roman.ttf in Resources */,
 				83ADD51C1FE866D6009B90F5 /* LaunchScreen.storyboard in Resources */,
 				83ADD5191FE866D6009B90F5 /* Assets.xcassets in Resources */,
 				83ADD5171FE866D6009B90F5 /* Main.storyboard in Resources */,
